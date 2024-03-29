@@ -14,7 +14,11 @@
                     E-mail: <a class="link-light" href="mailto:jaksics94@gmail.com">jaksics94@gmail.com</a>
                 </div>
                 <div class="mt-2">
+<<<<<<< Updated upstream
                     Adószám:
+=======
+                    Adószám:56174203-1-42
+>>>>>>> Stashed changes
                 </div>
                 <div class="mt-2">
                     Cím: 1144 Budapest,Szentmihalyi út 31
@@ -27,7 +31,11 @@
                 <div>
                     <i style="font-size:250%;" class="material-icons mt-2">person</i>
                     <p>
+<<<<<<< Updated upstream
 
+=======
+                        
+>>>>>>> Stashed changes
                         Jaksics József, Egyéni Vállalkozó,Nemzetközi Árufuvarozó
                     </p>
                 </div>

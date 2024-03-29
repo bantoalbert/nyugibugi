@@ -1,3 +1,10 @@
+<<<<<<< Updated upstream
+=======
+<?php
+
+include ("megrendelessql.php");
+?>
+>>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -11,7 +18,11 @@
     <link rel="shortcut icon" type="image/x-icon"></i>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<<<<<<< Updated upstream
     <?php include ("megrendelessql.php") ?>
+=======
+
+>>>>>>> Stashed changes
 </head>
 
 <body>
