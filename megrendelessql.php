@@ -1,6 +1,5 @@
 <?php
 
-require ('includes/dbcon.php');
 
 $nev = "";
 $email = "";
@@ -63,15 +62,15 @@ if (isset($_POST["submit"])) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        }
-    } 
+        $mail->Username = 'nyugibugikoltoztetes@gmail.com';
+        $mail->Password = 'j p w w x n v l o r v x c b s o';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         $mail->addAddress('nyugibugikoltoztetes@gmail.com', 'Nyugi Bugi');
         $mail->setFrom($email, $nev);
         $mail->Subject = 'Megrendeles';
         $mail->isHTML(TRUE);
-        $mail->Body = '<html>'.$email.'<br>'.$telefonszam.'<br>'.$uzenet.'<br> Mikor:'.$datum.'<br>Honnan:'.$honnan.'<br>Hova'.$hova.'</html>';
+        $mail->Body = '<html>' . $email . '<br>' . $telefonszam . '<br>' . $uzenet . '<br> Mikor:' . $datum . '<br>Honnan:' . $honnan . '<br>Hova' . $hova . '</html>';
         if (!$mail->send()) {
             echo 'Message could not be sent.';
             echo 'Mailer Error: ' . $mail->ErrorInfo;
